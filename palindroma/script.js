@@ -12,7 +12,7 @@ function palindromo(input){
     for(let i= 0; i < input.lenght; i++){
         
         // se la prima e diversa dall' ultima, la seconda dalla penultima, la terza dalla terzultima e così via 
-        if(input[i]!== input[len -1 -i]){
+        if(input[i] !== input [len -1 -i]){
             return "non è palindromo";
     
         }
